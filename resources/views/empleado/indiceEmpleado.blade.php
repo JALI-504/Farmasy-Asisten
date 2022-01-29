@@ -108,7 +108,7 @@
         <tbody>
         @forelse($empleados as $empleado)<!--Definimos un forelse para recuperar los valores de cada empleado-->
             <tr>
-                @if($empleado->id>3)
+                @if($empleado->id>1)
                 <!--recuperamos los datos en el orden de los campos para ser mostrados-->
                 <td>{{$empleado->identidad}}</td>
                 <td>{{$empleado->primer_nombre}}</td>
